@@ -7,9 +7,7 @@ A simple and secure door access system using an Arduino, RFID module, relay, and
 This project allows access to a door (or any controlled area) using an RFID card or tag. When a valid tag is scanned, the system displays "Access Granted" on an LCD and unlocks the door for a few seconds using a relay. If the tag is unauthorized, access is denied.
 
 👨‍💻 Author
-Y. Naga Teja Reddy
-Founder: Draco-Botz, RCC Club
-Hyderabad, India
+Y. Naga Teja Reddy, Draco
 
 ---
 
