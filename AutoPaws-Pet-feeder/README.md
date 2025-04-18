@@ -70,8 +70,6 @@ This project is an **Automatic Pet Feeder** system built using an **Arduino** pl
 - **Keypad not responding:** Check the connections to ensure the keypad is connected to the correct pins on the Arduino.
 - **Servo not working:** Verify the servo is properly connected to pin 10 and that the servo library is correctly installed.
 
-## License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements:
 - The Arduino community for providing excellent resources.
