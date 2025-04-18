@@ -46,6 +46,28 @@ Y. Naga Teja Reddy, Draco
 | TX       | Pin 2       |
 | RX       | Pin 3       |
 
+                +---------------------------+
+                |       Arduino Uno         |
+                |                           |
+                |    SDA (A4) <--- LCD SDA  |
+                |    SCL (A5) <--- LCD SCL  |
+                |      D2      <--- RFID TX |
+                |      D3      --- Not used |
+                |      D9      ---> Relay IN|
+                |      5V      ---> LCD VCC |
+                |      5V      ---> RFID VCC|
+                |      5V      ---> Relay VCC|
+                |     GND      ---> All GNDs|
+                +---------------------------+
+
+     Relay Module         LCD (I2C)            RFID Module
+     -------------        -----------          -------------
+     IN  <--- D9          SDA <--- A4          TX <--- D2
+     VCC <--- 5V          SCL <--- A5          VCC <--- 5V
+     GND <--- GND         VCC <--- 5V          GND <--- GND
+                          GND <--- GND
+
+
 ### Relay Module
 
 | Relay IN | Arduino Pin 9 |
