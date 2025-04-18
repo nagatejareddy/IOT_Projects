@@ -87,14 +87,3 @@ SoftwareSerial (comes pre-installed)
 String allowedTag = "5D00A3D51833"; // Replace with your RFID tag ID
 const int relayPin = 9;             // Relay pin for door lock control
 
-
-✅ Future Improvements
-Store multiple authorized tags using an array or EEPROM.
-
-Add a buzzer for sound feedback.
-
-Use a real-time clock (RTC) module to log access time.
-
-Integrate with IoT platforms (like Blynk or Firebase) for remote monitoring.
-
-Replace Arduino with ESP32/ESP8266 for Wi-Fi capability.
