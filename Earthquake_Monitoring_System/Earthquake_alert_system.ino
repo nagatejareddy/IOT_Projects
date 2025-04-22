@@ -8,12 +8,12 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Wi-Fi credentials
-const char* ssid = "Cyberpunk_005";
-const char* password = "ABCD1234";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "WIFI_PASSWORD";
 
 // ThingSpeak
 const char* host = "api.thingspeak.com";
-String apiKey = "MXUGYX49NXSF1BT2";
+String apiKey = "YOUR_APIKEY";
 
 const int vibrationPin = D5; // GPIO14
 const int sampleCount = 100;
