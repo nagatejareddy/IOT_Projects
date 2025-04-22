@@ -57,17 +57,6 @@ This system detects vibrations, displays the percentage of detected vibrations o
 
 ---
 
-## 🧰 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/earthquake-vibration-monitor.git
-cd earthquake-vibration-monitor
-```
-
----
-
 ### 2. Install Required Libraries
 
 In the **Arduino IDE**, go to **Sketch > Include Library > Manage Libraries** and install the following:
